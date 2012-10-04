@@ -102,11 +102,11 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 					. $separator;
 			}
 
-			$currentClass = 'current';
+			$currentClass = 'active';
 			if ($class) {
 				$currentClass .= ' ' . $class;
 			}
-			$out .= $this->Html->tag($tag, $params['page'], array('class' => $currentClass));
+			$out .= $this->Html->tag($tag, $this->link($i, array('page' => $i), $options), array('class' => $currentClass));
 			if ($i != $params['pageCount']) {
 				$out .= $separator;
 			}
