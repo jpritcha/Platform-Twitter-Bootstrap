@@ -36,15 +36,14 @@ Using Crud plugin aswell?
 Usage ex.
 -------
 	In your default.ctp
-	echo $this->Html->css('/twitter_bootstrap/bootstrap.min');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-buttons');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-alerts');
+	echo $this->Html->css('/twitter_bootstrap/css/bootstrap.min.css');
+	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-button');
+	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-alert');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-dropdown');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-modal');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-popover');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-scrollspy');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-tabs');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-twipsy');
+	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-tab');
 
 
 Christian Winther
