@@ -169,11 +169,9 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 			), $options);
 		$disabledOptions = array_merge(array(
 			'tag' => 'li',
+			'disabledTag' => 'a',
 			'escape' => false, // Harmless ?
 			), $disabledOptions);
-		if ($disabledTitle) {
-			$disabledTitle = $this->Html->link($disabledTitle, '#');
-		}
 		return parent::prev($title, $options, $disabledTitle, $disabledOptions);
 	}
 
@@ -183,11 +181,9 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 			), $options);
 		$disabledOptions = array_merge(array(
 			'tag' => 'li',
+			'disabledTag' => 'a',
 			'escape' => false, // Harmless ?
 			), $disabledOptions);
-		if ($disabledTitle) {
-			$disabledTitle = $this->Html->link($disabledTitle, '#');
-		}
 		return parent::next($title, $options, $disabledTitle, $disabledOptions);
 	}
 
