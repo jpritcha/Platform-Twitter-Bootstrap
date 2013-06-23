@@ -170,7 +170,7 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 		$disabledOptions = array_merge(array(
 			'tag' => 'li',
 			'disabledTag' => 'a',
-			'escape' => false, // Harmless ?
+			'class' => 'disabled'
 			), $disabledOptions);
 		return parent::prev($title, $options, $disabledTitle, $disabledOptions);
 	}
@@ -182,7 +182,7 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 		$disabledOptions = array_merge(array(
 			'tag' => 'li',
 			'disabledTag' => 'a',
-			'escape' => false, // Harmless ?
+			'class' => 'disabled'
 			), $disabledOptions);
 		return parent::next($title, $options, $disabledTitle, $disabledOptions);
 	}
