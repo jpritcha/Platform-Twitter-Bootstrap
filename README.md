@@ -37,17 +37,17 @@ Using Crud plugin aswell?
 
 Usage ex.
 -------
-	In your default.ctp
+In your default.ctp
 
 ```php
-	echo $this->Html->css('/twitter_bootstrap/css/bootstrap.min.css');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-button');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-alert');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-dropdown');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-modal');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-popover');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-scrollspy');
-	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-tab');
+echo $this->Html->css('/twitter_bootstrap/css/bootstrap.min.css');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-button');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-alert');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-dropdown');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-modal');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-popover');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-scrollspy');
+echo $this->Html->script('/twitter_bootstrap/js/bootstrap-tab');
 ```
 
 
