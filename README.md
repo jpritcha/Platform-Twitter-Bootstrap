@@ -16,14 +16,14 @@ Setup:
 -------
 * Rememer to load the plugin in app/Config/bootstrap.php
 
-```
+```php
 	// Load TwitterBootstrap plugin, without loading bootstrap
 	CakePlugin::load('TwitterBootstrap', array('bootstrap' => false));
 ```
 * 'Form' helper need to be changed to 'BootstrapForm' helper
 * 'Paginator' helper need to be changed to 'BootstrapPaginator' helper
 
-```
+```php
 	// Change default Form & Paginator
 	public $helpers = array(
 		'Form'		=> array('className' => 'TwitterBootstrap.BootstrapForm'),
@@ -38,7 +38,8 @@ Using Crud plugin aswell?
 Usage ex.
 -------
 	In your default.ctp
-```
+
+```php
 	echo $this->Html->css('/twitter_bootstrap/css/bootstrap.min.css');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-button');
 	echo $this->Html->script('/twitter_bootstrap/js/bootstrap-alert');
