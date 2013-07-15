@@ -54,7 +54,7 @@ class BootstrapPaginatorHelper extends PaginatorHelper {
 
 		$defaults = array(
 			'tag' => 'li', 'before' => null, 'after' => null, 'model' => $this->defaultModel(), 'class' => null,
-			'modulus' => '8', 'separator' => ' | ', 'first' => null, 'last' => null, 'ellipsis' => '...',
+			'modulus' => '8', 'separator' => '', 'first' => null, 'last' => null, 'ellipsis' => '...',
 		);
 		$options += $defaults;
 
