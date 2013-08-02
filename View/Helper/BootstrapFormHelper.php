@@ -15,11 +15,11 @@ class BootstrapFormHelper extends FormHelper {
 	*/
 	public function input($fieldName, $options = array()) {
 		$defaults = array(
-			'before'	=> '',
-			'between'	=> '<div class="controls">',
-			'after'		=> '</div>',
+			'before'	=> '<div class="form-group">',
+			'between'	=> '<div>',
+			'after'		=> '</div></div>',
 			'format'	=> array('before', 'label', 'between', 'input', 'error', 'after'),
-			'class'		=> 'span9', // @todo make this dynamic
+			'class'		=> 'form-control',
 			'div'		=> array(
 				'class' => 'control-group'
 			),
@@ -69,7 +69,7 @@ class BootstrapFormHelper extends FormHelper {
 
 			$options['between'] .= '<div class="input-append input-prepend">' . $prepend;
 			$options['after'] = $append . '</div>' . $options['after'];
-			
+
 			unset($options['prepend']);
 			unset($options['append']);
 		}
